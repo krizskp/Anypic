@@ -6,6 +6,8 @@
 //  Copyright (c) 2013 Parse. All rights reserved.
 //
 
+#import <Parse/Parse.h>
+#import <ParseFacebookUtils/PFFacebookUtils.h>
 #import "AppDelegate.h"
 
 #import "Reachability.h"
@@ -44,7 +46,8 @@
 
     // ****************************************************************************
     // Parse initialization
-    // [Parse setApplicationId:@"APPLICATION_ID" clientKey:@"CLIENT_KEY"];
+    [Parse setApplicationId:@"fsSMy1HhO5UOsFf7aa9gkX5gAoWWpbGWNYaxgs3x"
+				  clientKey:@"9208J5n6iIuCaLQTqXUeG4fuEY5H1jhNZhnTvnWt"];
     [PFFacebookUtils initializeFacebook];
     // ****************************************************************************
     

@@ -6,6 +6,7 @@
 //  Copyright (c) 2013 Parse. All rights reserved.
 //
 
+#import <ParseFacebookUtils/PFFacebookUtils.h>
 #import "PAPWelcomeViewController.h"
 #import "AppDelegate.h"
 
